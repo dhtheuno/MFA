@@ -1,6 +1,6 @@
 import torch 
 import torch.nn as nn
-from FreqChannelAtten import FreqChannelAtten as MFA
+from model.ECAPA_TDNN.MFA.FreqChannelAtten import FreqChannelAtten as MFA
 
 class DpMsModule(nn.Module):
     def __init__(self, scale, channel_output, input_dim):
